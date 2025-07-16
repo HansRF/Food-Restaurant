@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="" />
+
+  <title>Rhans</title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- nice select  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css"
+    integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ=="
+    crossorigin="anonymous" />
+  <!-- Tambahkan di <head> -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- side style -->
+  <link href="css/side.css" rel="stylesheet" />
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <div class="bg-box">
+      <img src="images/makan.jpeg" alt="" />
+    </div>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span> Rhans </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">Book Table</a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <a href="https://wa.me/6285777938815" target="_blank" class="user_link">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com/rhanfdhliah_/" target="_blank" class="user_link">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a class="cart_link" href="javascript:void(0);" onclick="toggleCart()">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029"
+                  style="enable-background: new 0 0 456.029 456.029" xml:space="preserve" width="24" height="24"
+                  fill="#333">
+                  <g>
+                    <g>
+                      <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248
+            c0,29.184,23.552,53.248,53.248,53.248
+            c29.184,0,53.248-23.552,53.248-53.248
+            C398.336,362.926,374.784,338.862,345.6,338.862z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304
+            C104.448,27.566,84.992,10.67,61.952,10.67H20.48
+            C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472
+            c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064
+            c4.096,27.136,27.648,47.616,55.296,47.616h212.992
+            c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4
+            C457.728,97.71,450.56,86.958,439.296,84.91z" />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688
+            c-29.696,1.536-52.224,26.112-51.2,55.296
+            c1.024,28.16,24.064,50.688,52.224,50.688h1.024
+            C193.536,443.31,216.576,418.734,215.04,389.55z" />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+
+              <a href="javascript:void(0);" class="order_online" onclick="scrollToMenu()">Order Online</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <style>
+        .qr_payment_section {
+          background-color: #1e1e1e;
+          padding: 40px 0;
+          color: #fff;
+          font-family: "Poppins", sans-serif;
+        }
+
+        .payment-box {
+          display: flex;
+          flex-wrap: wrap;
+          background-color: #2b2b2b;
+          border-radius: 15px;
+          padding: 30px;
+          gap: 30px;
+          justify-content: space-between;
+        }
+
+        .payment-left,
+        .payment-right {
+          flex: 1 1 45%;
+        }
+
+        .account-info {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          background: #1e1e1e;
+          padding: 20px;
+          border-radius: 12px;
+        }
+
+        .account-info img.game-thumb {
+          width: 100px;
+          height: 100px;
+          object-fit: cover;
+          border-radius: 12px;
+        }
+
+        .rincian-box {
+          background: #1e1e1e;
+          margin-top: 20px;
+          padding: 20px;
+          border-radius: 12px;
+        }
+
+        .rincian-box ul {
+          list-style: none;
+          padding: 0;
+        }
+
+        .rincian-box li {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+        }
+
+        .total {
+          margin-top: 15px;
+          display: flex;
+          justify-content: space-between;
+          font-size: 1.1em;
+          color: #ffcc00;
+        }
+
+        .status-box {
+          background: #1e1e1e;
+          padding: 20px;
+          border-radius: 12px;
+        }
+
+        .status {
+          display: inline-block;
+          padding: 5px 12px;
+          border-radius: 20px;
+          font-size: 0.8em;
+          margin-top: 8px;
+        }
+
+        .status.unpaid {
+          background-color: #ff4d6d;
+          color: #fff;
+        }
+
+        .status.pending {
+          background-color: #ffaa33;
+          color: #000;
+          margin-left: 10px;
+        }
+
+        .qr-box {
+          margin-top: 20px;
+          text-align: center;
+        }
+
+        .qr-box .qr-image {
+          width: 160px;
+          max-width: 100%;
+          border-radius: 10px;
+          margin-bottom: 15px;
+        }
+
+        .qr-actions {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          align-items: center;
+        }
+
+        .qr-actions .download-btn {
+          width: 250px;
+          text-align: center;
+        }
+
+        .download-btn {
+          background-color: #d1a355;
+          color: #000;
+          border: none;
+          padding: 10px 25px;
+          border-radius: 30px;
+          cursor: pointer;
+          transition: background-color 0.2s ease-in-out;
+        }
+
+        .download-btn:hover {
+          background-color: #c89634;
+        }
+
+        .note {
+          font-size: 0.8em;
+          color: #aaa;
+          margin-top: 10px;
+        }
+      </style>
+
+    </header>
+
+    <!-- Sidebar Keranjang Belanja -->
+    <div id="cartSidebar" class="cart-sidebar">
+      <div class="cart-header">
+        <h4>KERANJANG BELANJA</h4>
+        <span class="close-cart" onclick="toggleCart()">&times;</span>
+      </div>
+      <div class="cart-content" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="subtotal">
+          <span>Subtotal:</span>
+          <strong id="cartSubtotal">Rp0</strong>
+        </div>
+        <button class="checkout-btn">Pembayaran <span>&rarr;</span></button>
+      </div>
+    </div>
+    <div id="cartOverlay" class="cart-overlay" onclick="toggleCart()"></div>
+    <!-- end header section -->
+  </div>
+
+  <!-- food section -->
+
+  <section id="qrPaymentSection" class="qr_payment_section layout_padding" style="font-family: 'Poppins', sans-serif">
+    <div class="container">
+      <!-- 💡 Detail Barang -->
+      <div style="
+            background: #2b2b2b;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+          ">
+        <h5 style="font-weight: 600; color: #fff; margin-bottom: 15px">
+          Detail Barang Dibeli
+        </h5>
+        <div class="table-responsive">
+          <table class="table table-borderless table-sm text-white mb-0" style="font-size: 15px">
+            <thead>
+              <tr style="border-bottom: 1px solid #444">
+                <th>Produk</th>
+                <th>Qty</th>
+                <th>Harga</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody id="itemDetails">
+              <!-- Diisi oleh JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 💰 QR + Rincian Pembayaran -->
+      <div class="payment-box">
+        <!-- Kiri: Rincian -->
+        <div class="payment-left">
+          <div class="rincian-box">
+            <h5 style="font-weight: 600">Rincian Pembayaran</h5>
+            <ul style="font-size: 15px">
+              <li><span>Harga</span><span id="hargaItem">Rp 0</span></li>
+              <li><span>Jumlah</span><span id="jumlahItem">0x</span></li>
+              <li>
+                <span>Subtotal</span><span id="subtotalItem">Rp 0</span>
+              </li>
+              <li><span>Biaya Admin</span><span id="biayaItem">Rp 1.000</span></li>
+            </ul>
+            <div class="total" style="font-size: 1rem">
+              <strong>Total Pembayaran</strong>
+              <span id="totalBayar">Rp 0</span>
+            </div>
+
+            <div style="
+                  background-color: #d1a355;
+                  color: #000;
+                  padding: 12px 18px;
+                  border-radius: 10px;
+                  font-size: 0.9em;
+                  font-weight: 500;
+                  margin-top: 15px;
+                  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+                ">
+              ⚠️ Harap melakukan pembayaran sesuai dengan nominal total yang
+              tertera agar proses pesanan dapat segera diproses tanpa kendala.
+            </div>
+          </div>
+        </div>
+
+        <!-- Kanan: QR -->
+        <div class="payment-right">
+          <div class="qr-box">
+            <img src="images/QR.jpeg" alt="QR Code Order Kuota" class="qr-image" id="qrcodeImage" />
+            <div class="qr-actions">
+              <a id="downloadQR" class="download-btn" href="images/QR.jpeg" download="order_kuota_qr.png">
+                Unduh Kode QR
+              </a>
+              <button class="download-btn" onclick="konfirmasiPembayaran()">
+                Saya Sudah Bayar
+              </button>
+            </div>
+            <p class="note" style="font-size: 0.8em; color: #aaa">
+              Screenshot jika QR Code tidak bisa di-download.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- 📌 Instruksi Pembayaran -->
+      <div style="
+        background: #2b2b2b;
+        border-radius: 12px;
+        margin-top: 35px;
+        padding: 20px;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+      ">
+        <h5 style="font-weight: 600; margin-bottom: 15px;">Instruksi Pembayaran</h5>
+
+        <details style="background: #1e1e1e; padding: 15px; border-radius: 10px; cursor: pointer;">
+          <summary style="font-weight: 500; font-size: 15px; color: #fff;">Cara Melakukan Pembayaran</summary>
+          <ul style="margin-top: 10px; padding-left: 20px; font-size: 14px; color: #ccc; list-style: disc;">
+            <li>Download Barcode atau Screenshot manual aja jika tidak bisa di-download</li>
+            <li>Buka aplikasi E-wallet atau mobile banking, pilih Scan Barcode</li>
+            <li>Insert image dari Galeri dan pilih gambar Barcode</li>
+            <li>Pastikan nama penerima <strong style="color: #f0c040;">Hans Store</strong></li>
+            <li>Lalu bayar dan selesai</li>
+          </ul>
+        </details>
+      </div>
+
+
+
+    </div>
+  </section>
+
+  <!-- end food section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>Contact Us</h4>
+            <div class="contact_link_box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span> Location </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span> Call +01 1234567890 </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span> demo@gmail.com </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo"> Rhans </a>
+            <p>
+              Necessary, making this the first true generator on the Internet.
+              It uses a dictionary of over 200 Latin words, combined with
+            </p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>Opening Hours</h4>
+          <p>Everyday</p>
+          <p>10.00 Am -10.00 Pm</p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://www.instagram.com/rhanfdhliah_/">Hans Store</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- isotope js -->
+  <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+  <script src="js/side.js"></script>
+  <script>
+    // Format ke Rupiah
+    function toRupiah(num) {
+      return "Rp " + num.toLocaleString("id-ID");
+    }
+
+    // Auto handle isi QR saat halaman dibuka
+    document.addEventListener("DOMContentLoaded", () => {
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+      if (cart.length === 0) {
+        alert("Keranjang kosong!");
+        return;
+      }
+
+      let subtotal = 0;
+      let totalQty = 0;
+
+      // Dapatkan elemen tbody
+      const itemDetailsTable = document.getElementById("itemDetails");
+
+      cart.forEach((item) => {
+        const itemSubtotal = item.finalPrice * item.qty;
+        subtotal += itemSubtotal;
+        totalQty += item.qty;
+
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+          <td>${item.name}</td>
+          <td>${item.qty}x</td>
+          <td>${toRupiah(item.finalPrice)}</td>
+          <td>${toRupiah(itemSubtotal)}</td>
+  `;
+
+        itemDetailsTable.appendChild(row);
+      });
+
+
+      const biaya = 1000;
+      const total = subtotal + biaya;
+
+      // Update elemen QR Section
+      document.getElementById("hargaItem").innerText = toRupiah(subtotal);
+      document.getElementById("jumlahItem").innerText = totalQty + "x";
+      document.getElementById("subtotalItem").innerText = toRupiah(subtotal);
+      document.getElementById("biayaItem").innerText = toRupiah(biaya);
+      document.getElementById("totalBayar").innerText = toRupiah(total);
+
+      // Scroll ke bagian QR
+      document.getElementById("qrPaymentSection").scrollIntoView({
+        behavior: "smooth",
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+    function konfirmasiPembayaran() {
+      Swal.fire({
+        title: "Sudah Melakukan Pembayaran?",
+        text: "Pastikan kamu sudah transfer sesuai total pembayaran!",
+        icon: "question",
+        showCancelButton: true,
+        confirmButtonText: "Ya, Sudah!",
+        cancelButtonText: "Belum",
+      }).then((result) => {
+        if (result.isConfirmed) {
+          const nomorAdmin = "6285777938815"; // Ganti dengan nomor admin
+
+          const isiPesan = `Halo admin, saya sudah melakukan pembayaran.\nAtas nama: \nMelalui: (Dana, Ovo, Gopay, Shopee Pay, M-Banking)\nMohon konfirmasinya ya!`;
+          const pesan = encodeURIComponent(isiPesan);
+          const waLink = `https://wa.me/${nomorAdmin}?text=${pesan}`;
+
+          // Buka WhatsApp
+          window.open(waLink, "_blank");
+
+          // Tunda popup konfirmasi agar user bisa kirim WA dulu
+          setTimeout(() => {
+            Swal.fire({
+              title: "Pembayaran Dikonfirmasi",
+              text: "Terima kasih! Kami akan segera memproses pesanan kamu.",
+              icon: "success",
+              confirmButtonText: "OK",
+            }).then(() => {
+              localStorage.removeItem("cart");
+              window.location.href = "index.html";
+            });
+          }, 4000);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
